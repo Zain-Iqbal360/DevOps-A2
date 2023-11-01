@@ -19,6 +19,7 @@ if response.status_code == 200:
     	file.write(clean_text)
     #user1 added something 
     a=2
-    
+    #user 1 added something
+    b=2
 else:
     print(f"Failed to retrieve the web page. Status code: {response.status_code}")
