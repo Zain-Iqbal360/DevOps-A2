@@ -13,7 +13,11 @@ if response.status_code == 200:
     for line in lines:
         print(line)
     
- 
+    # User 2 added feature
+    
+    with open('output.txt','w',encoding='utf-8') as file:
+    	file.write(clean_text)
+    
     
 else:
     print(f"Failed to retrieve the web page. Status code: {response.status_code}")
